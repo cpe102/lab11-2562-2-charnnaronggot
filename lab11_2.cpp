@@ -19,7 +19,7 @@ int main(){
 int gcd(int x , int y ){
 	if(x%y==0){
 		return y ;
-	}else if(x%y!=0) {
+	}else{
 		return gcd(y,x%y) ;
 
 	}
